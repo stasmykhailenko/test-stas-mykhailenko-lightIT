@@ -1,0 +1,85 @@
+body {
+  background: #fff url(../img/bg-screen.jpg) no-repeat 50% 0/cover;
+}
+
+.header .logo-catalog {
+  float: right;
+}
+
+.header .button-sidebar {
+  position: fixed;
+  z-index: 100;
+  margin-top: -5px;
+}
+
+.header .button-sidebar i {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+#catalog .sidebar-catalog {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+#catalog .sidebar-catalog .call-login {
+  margin-top: 60px;
+}
+
+#catalog .sidebar-catalog .data-user {
+  margin-top: 60px;
+}
+
+#catalog .cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#catalog .cards .card {
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#catalog .cards .card .card-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#catalog .cards .card div {
+  text-align: center;
+  position: relative;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#catalog .cards .card div .card-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#catalog .cards .card .button-card {
+  margin: 10px;
+}

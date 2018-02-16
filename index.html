@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test-stas-mykhailenko-lightIT</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<section id="main-screen">
+		<div class="container">
+			<div class="content">
+				<header class="header">
+					<div class="logo"><p>Electro<span>Alternative</span></p></div>
+				</header>
+				<div class="main-screen-description">
+					<p>Own only the best</p>
+				</div>
+			</div>
+			<div class="sidebar">
+				<!-- login area -->
+				<div class="login-area">
+					<p class="call-login">Log in to get the most out of your site visit</p>
+
+					<form id="form-login">
+						<p class="form-heading">Authorization form</p>
+						<p>Your login:<input type="text" name="username-login" placeholder="login"></p>
+						<p>Your password:<input type="password" name="password-login" placeholder="password"></p>
+						<p class="error-login"></p>
+						<button type="button" class="button button-login">Log in</button>
+					</form>
+
+					<p class="transition-reg-form">If you do not have an account yet, fill out <span>the registration form</span></p>
+
+					<p class="transition-watch-products">Also you can <a href="catalog.html">watch products without registration</a>, but your actions on the site will be limited</p>
+				</div>
+				<!-- registration area -->
+				<div class="registration-area hidden">
+					<form id="form-registration">
+						<p class="form-heading">Registration form</p>
+						<p>Your login:<input type="text" name="username-registration" placeholder="login"></p>
+						<p>Your password:<input type="password" name="password-registration" placeholder="password"></p>
+						<p>Confirm your password:<input type="password" name="confirm-password-registration" placeholder="confirm password"></p>
+						<p class="error-registration"></p>
+						<button type="button" class="button button-registration">Check in</button>
+					</form>
+					<p class="transition-login-form">Return <span>to login form</span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

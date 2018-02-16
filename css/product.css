@@ -1,0 +1,89 @@
+body {
+  background: #fff url(../img/bg-screen.jpg) no-repeat 50% 0/cover;
+}
+
+.header .logo-product {
+  float: right;
+}
+
+.header .button-sidebar {
+  position: fixed;
+  z-index: 100;
+  margin-top: -5px;
+}
+
+.header .button-sidebar i {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.sidebar-catalog {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+.sidebar-catalog .call-login {
+  margin-top: 60px;
+}
+
+.sidebar-catalog .data-user {
+  margin-top: 60px;
+}
+
+.product-description .photo {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.product-description .name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+#form-review {
+  clear: both;
+  max-width: 100%;
+}
+
+.review {
+  border: 1px solid #000;
+  padding: 15px;
+  margin: 15px 0;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+}
+
+.review:nth-child(2n) {
+  margin-right: 50px;
+}
+
+.review:nth-child(2n - 1) {
+  margin-left: 50px;
+}
+
+.review p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review p:last-child {
+  margin-bottom: 0;
+}
+
+.review p span {
+  font-weight: normal;
+}
+
+@media screen and (max-width: 576px) {
+  .review:nth-child(2n) {
+    margin-right: 0;
+  }
+  .review:nth-child(2n - 1) {
+    margin-left: 0;
+  }
+}

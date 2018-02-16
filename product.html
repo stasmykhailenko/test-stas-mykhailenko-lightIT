@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test-stas-mykhailenko-lightIT</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/product.css">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="logo logo-product"><p>Electro<span>Alternative</span></p></div>
+			<button class="button-sidebar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		</header>
+		<section id="product">
+			<div class="product-description">
+
+			</div>
+			<div id="product-reviews">
+				<form id="form-review">
+					<p>Your rate:<input type="text" name="review-form-rate" placeholder="0-5"></p>
+					<p>Your review:<textarea type="text" name="review-form-text" placeholder="Enter your review..."></textarea></p>
+					<p class="error-review"></p>
+					<button type="button" class="button button-review">Send</button>
+				</form>
+			</div>
+			<div class="sidebar sidebar-catalog hidden">
+				<!-- login area -->
+				<div class="login-area">
+					<p class="call-login">Log in to get the most out of your site visit</p>
+
+					<form id="form-login">
+						<p class="form-heading">Authorization form</p>
+						<p>Your login:<input type="text" name="username-login" placeholder="login"></p>
+						<p>Your password:<input type="password" name="password-login" placeholder="password"></p>
+						<p class="error-login"></p>
+						<button type="button" class="button button-login">Log in</button>
+					</form>
+
+					<p class="transition-reg-form">If you do not already have an account, fill out <span>the registration form</span></p>
+				</div>
+				<!-- registration area -->
+				<div class="registration-area hidden">
+					<form id="form-registration">
+						<p class="form-heading">Registration form</p>
+						<p>Your login:<input type="text" name="username-registration" placeholder="login"></p>
+						<p>Your password:<input type="password" name="password-registration" placeholder="password"></p>
+						<p>Confirm your password:<input type="password" name="confirm-password-registration" placeholder="confirm password"></p>
+						<p class="error-registration"></p>
+						<button type="button" class="button button-registration">Check in</button>
+					</form>
+					<p class="transition-login-form">Return <span>to login form</span></p>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/product.js"></script>
+</body>
+</html>
